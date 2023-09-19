@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "esnext",
+    "declaration": true,
+    "jsx": "preserve",
+    "outDir": "dist",
+    "types": ["node", "react"],
+    "moduleResolution": "node",
+    "strict": true,
+  },
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+}
